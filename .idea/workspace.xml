@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07c2a67-8f73-4a8b-8de9-939ff6f9f0f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estrutura.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controller/ErroController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controller/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Core/Core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagramas/DiagramaRelacional.dia" beforeDir="false" afterPath="$PROJECT_DIR$/Diagramas/DiagramaRelacional.dia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagramas/DiagramaRelacional.dia.autosave" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrutura.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/Template/estrutura.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,29 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/estrutura.html">
+        <entry file="file://$PROJECT_DIR$/app/Core/Core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estilo.css">
+        <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.html">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ErroController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -63,6 +73,12 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/Diagramas/estilo.css" />
         <option value="$PROJECT_DIR$/estrutura.html" />
+        <option value="$PROJECT_DIR$/Diagramas/index.php" />
+        <option value="$PROJECT_DIR$/app/Template/estrutura.html" />
+        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/ErroController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/Core/Core.php" />
       </list>
     </option>
   </component>
@@ -88,6 +104,23 @@
             <path>
               <item name="PHP-MVC" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-MVC" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-MVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-MVC" type="462c0819:PsiDirectoryNode" />
               <item name="Diagramas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -108,6 +141,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\PHP-MVC" />
+      <recent name="C:\xampp\htdocs\PHP-MVC\app\View" />
+      <recent name="C:\xampp\htdocs\PHP-MVC\app\Template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,12 +167,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557510142287</updated>
-      <workItem from="1557510143446" duration="3952000" />
+      <workItem from="1557510143446" duration="7394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3952000" />
+    <option name="totallyTimeSpent" value="7394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -168,13 +203,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -182,10 +210,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/estrutura.html">
+    <entry file="file://$PROJECT_DIR$/app/View/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state>
+          <caret selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Template/estrutura.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ErroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Core/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
