@@ -10,6 +10,8 @@ require_once 'app/Controller/ErroController.php';
 
 require_once 'app/Model/Postagem.php';
 
+require_once 'vendor/autoload.php';
+
 //Pega o que está no arquivo estrutura.html e salva na variável template
 $template = file_get_contents('app/Template/estrutura.html');
 
