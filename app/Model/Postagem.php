@@ -22,4 +22,20 @@
             return $resultado;
         }
 
+        public static function selecionaPorId($id_postagem){
+            $conexao = Connection::getConexao();
+
+            $sql = "SELECT * FROM postagem WHERE id_postagem = :id";
+            $sql = $conexao->prepare($sql);
+            $sql->bindValue(":id", $id_postagem, PDO::PARAM_INT);
+            $sql->execute();
+
+            $resultado = $sql->fetchObject('Postagem');
+
+            if(!$resultado){
+                throw new Exception('Não foi encontrado nenhum registro no banco');
+            }
+            return $resultado;
+        }
+
     }

@@ -27,6 +27,11 @@
             //passar variáveis para essa função.
             //Por exemplo, aqui estamos intanciando a classe HomeController e chamando a função index dela, que faz
             //alguma coisa. Nesse caso por não estarmos salvando em uma variável ela não retorna nada
-            call_user_func(array(new $controller, $acao), array());
+            if(isset($urlGet['id']) && $urlGet['id'] != null){
+                $id = $urlGet['id'];
+            }else{
+                $id = null;
+            }
+            call_user_func(array(new $controller, $acao), array('id' => $id));
         }
     }
